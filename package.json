@@ -1,0 +1,22 @@
+{
+  "name": "suiteview-lambda-convert-to-videos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "suiteview-lambda-convert-to-videos.js",
+  "scripts": {
+    "dev": "node --require dotenv/config -e \"console.log(require('./index').handler(require('./event.json')));\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1345.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "flvmeta": "^0.1.1",
+    "moment-timezone": "^0.5.42"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
